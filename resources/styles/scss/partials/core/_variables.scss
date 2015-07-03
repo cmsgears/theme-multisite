@@ -1,0 +1,39 @@
+// Primary Color:
+// 1. cmg - mixins - Default color for .linear-gradient
+// 2. cmg - basic - Body background color
+// 3. cmg - reset - a
+// 4. cmg-select - .cmg-select-list:hover
+$color-primary: #ECF0F1;    
+$color-primary-l: #FFFFFF;  
+$color-primary-d: #F5F5F5;
+$color-primary-text: #464646;   
+$color-primary-text-l: #td;   
+$color-primary-text-d: #000000;
+
+// Secondary Color:
+$color-secondary: #3498DB;     
+$color-secondary-l: #D3EFFE;
+$color-secondary-d: #256E9E;  
+$color-secondary-text: #3498DB; 
+$color-secondary-text-l: #FFFFFF; 
+$color-secondary-text-d: #256E9E;
+
+// Tertiary Color:
+$color-tertiary: #td;   
+$color-tertiary-l: #td;
+$color-tertiary-d: #td;
+$color-tertiary-text: #td;
+$color-tertiary-text-l: #td;
+$color-tertiary-text-d: #td;
+
+
+// Transparent colors
+$color-transparent-black: rgba(0, 0, 0, 0.6);
+
+// Form Fields Default Color
+$color-field: #F5F5F5;
+$color-field-text: #3F3F46;
+$color-button: #E74C3C;           // button border color
+$color-button-text: #FFFFFF;
+$color-button-h: #AA382C;     // Button Hover  
+$color-button-h-text: #FFFFFFF;
