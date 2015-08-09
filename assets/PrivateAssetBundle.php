@@ -28,9 +28,9 @@ class PrivateAssetBundle extends AssetBundle {
             "scripts/vendor/conditionizr-4.4.0.min.js",
             "conditionizr/detects/ie6-ie7-ie8-ie9.js",
             "scripts/vendor/imagesloaded.pkgd-3.1.8.min.js",
-            "scripts/cmgtools/cmt-browser-features.js",
-            "scripts/cmgtools/cmt-ajax-processor.js",
-            "scripts/cmgtools/cmt-utilities.js",
+			"scripts/cmgtools/cmt-core.js",
+            "scripts/cmgtools/cmt-api-processor.js",
+            "scripts/cmgtools/cmt-file-uploader.js",
             "scripts/main.js",
             "scripts/ajax-processor.js"
 	    ];
@@ -66,7 +66,7 @@ class PrivateAssetBundle extends AssetBundle {
 					var fileUploadUrl = '" . Yii::$app->homeUrl . "apix/file/file-handler';";
 
 		$view->registerJs( $inlineScript, View::POS_READY );
-		
+
 		$view->registerJs( $siteUrl, View::POS_END );
 	}
 }
