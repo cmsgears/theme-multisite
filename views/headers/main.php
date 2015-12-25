@@ -10,7 +10,8 @@ ContentUtil::initPage( $this );
 ?>
 <meta charset="<?= $coreProperties->getCharset() ?>">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!-- Use minimum-scale=1.0, maximum-scale=1.0, user-scalable=no for mobile applications -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <?php if( isset( $this->params['desc'] ) ) { ?>
 	<meta name="description" content="<?=$this->params['desc']?>">
