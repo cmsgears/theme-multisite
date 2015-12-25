@@ -36,4 +36,5 @@ $this->title 	= $coreProperties->getSiteTitle() . " | Contact";
 	        ?>
 		</div>
 	</div>
+
 </section>
